@@ -1,0 +1,1071 @@
+﻿Chapter                                                                                  1
+RELATIONS AND FUNCTIONS
+vThere is                                                                                ... . It may
+be very                                                                                  true of
+beau                                                                                     by a
+bea                                                                                      sing
+1.1  Introduc
+Recall that th
+co-domain an
+along with dif
+and their gra
+mathematics h
+in English lan
+quantities are
+or link betwe
+the set of stud
+set of students
+of the exampl
+(i)                                                                                      {(a, b)        Dirichlet
+                                                                                                        -1859)
+(ii)                                                                                     {(a, b)
+(iii)                                                                                    {(a, b)
+(iv)                                                                                     {(a, b)        on is less than
+                                                                                         the tota
+(v)                                                                                      {(a, b)        stracting from
+                                                                                         this, we       bitrary subset
+of A × B.
+If (a, b) ∈ R, we say that a is related to b under the relation R and we write as
+a R b. In general, (a, b) ∈ R, we do not bother whether there is a recognisable
+connection or link between a and b. As seen in Class XI, functions are special kind of
+relations.
+In this chapter, we will study different types of relations and functions, composition
+of functions, invertible functions and binary operations.
+2021-22
+
+2                                                                                                 MATHEMATICS
+1.2  Types of Relations
+In this section, we would like to study different types of relations. We know that a
+relation in a set A is a subset of A × A. Thus, the empty set φ and A × A are two
+extreme relations. For illustration, consider a relation R in the set A = {1, 2, 3, 4} given by
+R = {(a, b): a - b = 10}. This is the empty set, as no pair (a, b) satisfies the condition
+a - b = 10. Si                                                                                    A, as all pairs
+(a, b) in A ×                                                                                     ead us to the
+following defi
+Definition 1                                                                                      ement of A is
+related to any
+Definition 2                                                                                                        element of A
+is related to e
+                                                                                                  Both the          called trivial
+relations.
+Example 1 L                                                                                                         the relation R
+in A given by                                                                                                       = {(a, b) : the
+difference bet                                                                                                      ersal relation.
+Solution Sinc                                                                                                       e sister of any
+student of the                                                                                                      tion. It is also
+obvious that t                                                                                                      hool has to be
+less than 3 m
+Remark In Cl                                                                                                        namely raster
+method and se                                                                                                       } defined by R
+= {(a,  b)                                                                                        :                 and only if
+b = a + 1 by                                                                                                        convenient.
+                                                                                                  If (a, b) ∈       b.
+                                                                                                  One of th         Mathematics,
+is an equival                                                                                                       onsider three
+types of relati
+Definition 3 A relation R in a set A is called
+(i)  reflexive, if (a, a) ∈ R, for every a ∈ A,
+(ii)  symmetric, if (a1, a2) ∈ R implies that (a2, a1) ∈ R, for all a1, a2 ∈ A.
+(iii)  transitive, if (a1, a2) ∈ R and (a2, a3) ∈ R implies that (a1, a3) ∈ R, for all a1, a2,
+a3 ∈ A.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                     3
+Definition 4 A relation R in a set A is said to be an equivalence relation if R is
+reflexive, symmetric and transitive.
+Example 2 Let T be the set of all triangles in a plane with R a relation in T given by
+R = {(T1, T2) : T1 is congruent to T2}. Show that R is an equivalence relation.
+Solution R                                                                                  elf. Further,
+(T1, T2) ∈ R                                                                                ) ∈ R. Hence,
+R is symmetr                                                                                o T2 and T2 is
+congruent to                                                                                n equivalence
+relation.
+Example 3 L                                                                                 n L defined as
+R = {(L1, L2)                                                                               ic but neither
+reflexive nor t
+Solution R is                                                                               f, i.e., (L1, L1)
+∉ R. R is sym
+⇒
+⇒
+⇒
+R is not tr
+g 1.1
+L2 is perpendi
+L3. In fact, L1                                                                             L3) ∉ R.
+Example 4 S                                                                                 {(1, 1), (2, 2),
+(3, 3), (1, 2), (
+Solution R is                                                                               ot symmetric,
+as (1, 2) ∈ R                                                                               and (2, 3) ∈ R
+but (1, 3) ∉ R
+Example 5 S
+is an equivalence relation.
+Solution R is reflexive, as 2 divides (a - a) for all a ∈ Z. Further, if (a, b) ∈ R, then
+2 divides a - b. Therefore, 2 divides b - a. Hence, (b, a) ∈ R, which shows that R is
+symmetric. Similarly, if (a, b) ∈ R and (b, c) ∈ R, then a - b and b - c are divisible by
+2. Now, a - c = (a - b) + (b - c) is even (Why?). So, (a - c) is divisible by 2. This
+shows that R is transitive. Thus, R is an equivalence relation in Z.
+2021-22
+
+4                                                                                                 MATHEMATICS
+In Example 5, note that all even integers are related to zero, as (0, ± 2), (0, ± 4)
+etc., lie in R and no odd integer is related to 0, as (0, ± 1), (0, ± 3) etc., do not lie in R.
+Similarly, all odd integers are related to one and no even integer is related to one.
+Therefore, the set E of all even integers and the set O of all odd integers are subsets of
+Z satisfying following conditions:
+(i)  All ele                                                                                                        are related to
+                                                                                                  each ot
+(ii)  No ele
+(iii)  E and O
+                                                                                                  The subs          is denoted by
+[0]. Similarly,                                                                                                     [1]. Note that
+[0] ≠ [1], [0]                                                                                                      above is true
+for an arbitra                                                                                                      y equivalence
+relation R in                                                                                                       sets Ai called
+partitions or s
+(i)  all elem
+(ii)  no elem
+(iii)                                                                                             ∪ Aj =
+                                                                                                  The subse         f the situation
+is that we can                                                                                                      he set Z given
+by three mutu
+                                                                                                  A1
+                                                                                                  A2                , ...}
+                                                                                                  A3                , ...}
+Define a                                                                                                            Following the
+arguments si                                                                                                        n equivalence
+relation. Also,                                                                                                     ted to zero, A2
+coincides wit                                                                                                       cides with the
+set of all inte                                                                                                     and A3 = [2].
+                                                                                                                1   2
+In fact, A1 = [3r], A2 = [3r + 1] and A3 = [3r + 2], for all r ∈ Z.
+Example 6 Let R be the relation defined in the set A = {1, 2, 3, 4, 5, 6, 7} by
+R = {(a, b) : both a and b are either odd or even}. Show that R is an equivalence
+relation. Further, show that all the elements of the subset {1, 3, 5, 7} are related to each
+other and all the elements of the subset {2, 4, 6} are related to each other, but no
+element of the subset {1, 3, 5, 7} is related to any element of the subset {2, 4, 6}.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                    5
+Solution Given any element a in A, both a and a must be either odd or even, so
+that (a, a) ∈ R. Further, (a, b) ∈ R ⇒ both a and b must be either odd or even
+⇒ (b, a) ∈ R. Similarly, (a, b) ∈ R and (b, c) ∈ R ⇒ all elements a, b, c, must be
+either even or odd simultaneously ⇒ (a, c) ∈ R. Hence, R is an equivalence relation.
+Further, all the elements of {1, 3, 5, 7} are related to each other, as all the elements
+of this subset                                                                             are related to
+each other, as                                                                             , 5, 7} can be
+related to any                                                                             hile elements
+of {2, 4, 6} ar
+1.                                                                                         Determ                                                                             ymmetric and
+transitiv
+(i) R
+(ii) R
+(iii) R
+(iv)  R
+(v) R                                                                                      time given by
+(
+(
+(
+(
+(
+2.                                                                                         Show t
+                                                                                           R = {(a                                                                            tive.
+3.                                                                                         Check whether the relation R defined in the set {1, 2, 3, 4, 5, 6} as
+R = {(a, b) : b = a + 1} is reflexive, symmetric or transitive.
+4.                                                                                         Show that the relation R in R defined as R = {(a, b) : a ≤ b}, is reflexive and
+transitive but not symmetric.
+5.                                                                                         Check whether the relation R in R defined by R = {(a, b) : a ≤ b3} is reflexive,
+symmetric or transitive.
+2021-22
+
+6                                                                                       MATHEMATICS
+6.                                                                                      Show that the relation R in  the set {1, 2, 3} given by R = {(1, 2), (2, 1)} is
+symmetric but neither reflexive nor transitive.
+7.                                                                                      Show that the relation R in the set A of all the books in a library of a college,
+                                                                                        given by R = {(x, y) : x and y have same number of pages} is an equivalence
+                                                                                        relation.
+8.                                                                                      Show t
+                                                                                        R = {(                                                                              w that all the
+                                                                                        elemen                                                                              s of {2, 4} are
+                                                                                        related t                                                                           ment of {2, 4}.
+9.                                                                                      Show t                                                                              2}, given by
+                                                                                        (i) R
+                                                                                        (ii) R
+                                                                                        is an eq                                                                            in each case.
+10.                                                                                     Give an
+(i) S
+(ii) T
+(iii) R
+(iv) R
+(v) S
+11.                                                                                     Show                                                                                ne given by
+                                                                                        R = {(P                                                                             distance of the
+                                                                                        point Q                                                                             that the set of
+                                                                                        all poin                                                                            with origin as
+                                                                                        centre.
+12.                                                                                     Show t                                                                              {(T1, T2) : T1
+                                                                                        is simil                                                                            le triangles T1
+                                                                                        with si                                                                             8, 10. Which
+triangle
+1                                                                                       2                                                                                   3
+13.                                                                                     Show that the relation R defined in the set A of all polygons as R = {(P1, P2) :
+P1 and P2 have same number of sides}, is an equivalence relation. What is the
+set of all elements in A related to the right angle triangle T with sides 3, 4 and 5?
+14.                                                                                     Let L be the set of all lines in XY plane and R be the relation in L defined as
+R = {(L1, L2) : L1 is parallel to L2}. Show that R is an equivalence relation. Find
+the set of all lines related to the line y = 2x + 4.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                           7
+15.  Let R be the relation in the set {1, 2, 3, 4} given by R = {(1, 2), (2, 2), (1, 1), (4,4),
+(1, 3), (3, 3), (3, 2)}. Choose the correct answer.
+(A) R is reflexive and symmetric but not transitive.
+(B) R is reflexive and transitive but not symmetric.
+(C) R is symmetric and transitive but not reflexive.
+(D) R i
+16.  Let R b                                                                                          > 6}. Choose
+the cor
+(A) (2,                                                                                               7) ∈ R
+1.3  Types of
+The notion of                                                                                         ction, constant
+function, poly                                                                                        m function etc.
+along with th
+Addition,                                                                                             ave also been
+studied. As th                                                                                        thematics and
+among other                                                                                           function from
+where we fin                                                                                          erent types of
+functions.
+Consider                                                                                              ms.
+In Fig 1.2                                                                                            er the function
+f                                                                                                     der f2 is same,
+1 are distinct,
+namely b. Fur                                                                                         not images of
+any element o                                                                                         lements of X1
+under f3. The
+Definition 5                                                                                          , if the images
+of distinct ele                                                                                       , f (x1) = f (x2)
+implies x1 = x
+The funct                                                                                             ction f2 and f3
+1                                                                                                 4
+in Fig 1.2 (ii) and (iii) are many-one.
+Definition 6 A function f : X → Y is said to be onto (or surjective), if every element
+of Y is the image of some element of X under f, i.e., for every y ∈ Y, there exists an
+element x in X such that f (x) = y.
+The function f3 and f4 in Fig 1.2 (iii), (iv) are onto and the function f1 in Fig 1.2 (i) is
+not onto as elements e, f in X2 are not the image of any element in X1 under f1.
+2021-22
+
+8                                                                                            MATHEMATICS
+Remark  f : X
+Definition 7                                                                                 jective), if f is
+both one-one
+The funct
+Example 7 L                                                                                  t f : A → N be
+function defi                                                                                f is one-one
+but not onto.
+Solution No t                                                                                er. Therefore,
+f must be one                                                                                ll numbers of
+students are fr                                                                              any student of
+the class, so that 51 can not be image of any element of X under f. Hence,  f is not onto.
+Example 8 Show that the function f : N → N, given by f(x) = 2x, is one-one but not
+onto.
+Solution The function f is one-one, for f (x1) = f (x2) ⇒ 2x1 = 2x2 ⇒ x1 = x2. Further,
+f is not onto, as for 1 ∈ N, there does not exist any x in N such that f(x) = 2x = 1.
+2021-22
+
+                                                                                                                                                         RELATIONS AND FUNCTIONS                              9
+                                                               Example 9  Prove that the function f : R → R, given by f (x) = 2x, is one-one and onto.
+                                                               Solution  f is one-one, as f (x1) = f (x2) ⇒ 2x1 = 2x2 ⇒ x1 = x2. Also, given any real
+                                            y                  y                                                                                         y
+number y in R, there exists                                    in R such that f(                                                                         ) = 2 . (                 ) = y. Hence, f is onto.
+                                            2                  2                                                                                         2
+Example 10                                  d f (x) = x - 1,
+for every x >
+Solution  f is                              y ∈ N, y ≠ 1,
+we can choos                                or 1 ∈ N, we
+have f(1) = 1
+Example 11
+defined as f (x
+Solution  Sin
+one. Also, the
+not image of
+(Why?). Therefore f is not onto.
+Example 12  Show that f : N → N, given by
+                                                                                                                                                         x                         +1,if x is odd,
+f                                           (x)                =
+                                                                                                                                                         x                         −1,if x is even
+is both one-one and onto.                                                                                                                                                                                     Fig 1.4
+2021-22
+
+10                                                                                               MATHEMATICS
+Solution  Suppose f (x1) = f (x2). Note that if x1 is odd and x2 is even, then we will have
+x1 + 1 = x2 - 1, i.e., x2 - x1 = 2 which is impossible. Similarly, the possibility of x1 being
+even and x2 being odd can also be ruled out, using the similar argument. Therefore,
+both x1 and x2 must be either odd or even. Suppose both x1 and x2 are odd. Then
+f (x1) = f (x2) ⇒ x1 + 1 = x2 + 1 ⇒ x1 = x2. Similarly, if both x1 and x2 are even, then also
+f (x1) = f (x2)                                                                                  y odd number
+2r + 1 in the c                                                                                  even number
+2r in the co-d                                                                                   onto.
+Example 13                                                                                       ays one-one.
+Solution Sup                                                                                     1 and 2 in the
+domain whos                                                                                      nder f can be
+only one elem                                                                                    ements of the
+co-domain {1,                                                                                    st be one-one.
+Example 14                                                                                       st be onto.
+Solution Sinc                                                                                    to 3 different
+elements of th
+Remark The                                                                                       r an arbitrary
+finite set X, i                                                                                  an onto map
+f : X → X is n                                                                                   s, Examples 8
+and 10 show t                                                                                    characteristic
+difference bet
+1.  Show t                                                                                                        one and onto,
+where                                                                                                             if the domain
+R∗                                                                                               is re
+∗
+2.  Check t
+(i) f
+(ii) f : Z → Z given by f (x) = x2
+(iii) f : R → R given by f (x) = x2
+(iv) f : N → N given by f (x) = x3
+(v) f : Z → Z given by f (x) = x3
+3.  Prove that the Greatest Integer Function f : R → R, given by f(x) = [x], is neither
+one-one nor onto, where [x] denotes the greatest integer less than or equal to x.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                     11
+4.                                                                                          Show that the Modulus Function f : R → R, given by f (x) = | x |, is neither one-
+one nor onto, where | x | is x, if x is positive or 0 and | x | is - x, if x is negative.
+5.                                                                                          Show that the Signum Function f : R → R, given by
+                                                                                            1,if                                                                               x>                                   0
+is neith
+6.                                                                                          Let A =                                                                             be a function
+from A
+7.                                                                                          In each                                                                             -one, onto or
+bijectiv
+(i) f
+(ii) f
+8.                                                                                          Let A a                                                                             b) = (b, a) is
+bijectiv
+9.                                                                                          Let f :                                                                             ∈ N.
+State w
+10.                                                                                         Let A =                                                                             B defined by
+f(x) = 
+
+11.                                                                                         Let f :                                                                             er.
+                                                                                            (A) f is one-one onto                                                               (B) f is many-one onto
+                                                                                            (C) f is one-one but not onto                                                       (D) f is neither one-one nor onto.
+12.                                                                                         Let f : R → R be defined as f(x) = 3x. Choose the correct answer.
+                                                                                            (A) f is one-one onto                                                               (B) f is many-one onto
+                                                                                            (C) f is one-one but not onto                                                       (D) f is neither one-one nor onto.
+2021-22
+
+12                                                                                            MATHEMATICS
+1.4  Composition of Functions and Invertible Function
+In this section, we will study composition of functions and the inverse of a bijective
+function. Consider the set A of all students, who appeared in Class X of  a Board
+Examination in 2006. Each student appearing in the Board Examination is assigned a
+roll number by the Board which is written by the students in the answer script at the
+time of exami                                                                                 s to deface the
+roll numbers                                                                                  umber to each
+roll number. L                                                                                set of all code
+numbers. Thi                                                                                  by f(a) = the
+roll number a                                                                                 ned to the roll
+number b. In t                                                                                the function f
+and each roll                                                                                 . Thus, by the
+combination o                                                                                 code number.
+This leads
+Definition 8                                                                                  omposition of
+f and g, denot                                                                                y
+Example 15                                                                                    {7, 11, 15} be
+functions def                                                                                 g (4) = 7 and
+g (5) =  g (9)
+Solution We                                                                                   = g(4) = 7,
+gof (4) =  g (f (4)) = g (5) = 11 and gof (5) =  g (5) = 11.
+Example 16 Find gof and fog, if f : R → R and g : R → R are given by f (x) = cos x
+and g (x) = 3x2. Show that gof  ≠ fog.
+Solution We have gof (x) =  g (f (x)) = g (cos x) = 3 (cos x)2 = 3 cos2 x. Similarly,
+fog (x) =  f (g (x)) =  f (3x2) = cos (3x2). Note that 3cos2 x ≠ cos 3x2, for x = 0. Hence,
+gof ≠ fog.
+2021-22
+
+                                                                                                                                                                                                     RELATIONS AND FUNCTIONS                                                                       13
+                                                                                                                                                                                  7          3                                                                        3x     +4
+                                                                                                                      Example 17 Show that if             f   : R             −                →R−   is defined by             f   (x)                                    =                        and
+                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                          5x−7
+                                                                                                                                                                                  5          5
+                                                                                           3                                                  7                                            7x    +4
+g:R                                                                                        −                          →R−                                     is defined by             g(x)   =                                   , then fog = IA and gof = IB, where,
+                                                                                                                                                   
+                                                                                                                                                                                               5x    −3
+                                                                                           5                                                  5
+                                                                                           3
+A = R -                                                                                                                                                                                                                                                                        called identity
+                                                                                           5,
+                                                                                           functions on s
+                                                                                           Solution We
+                                                                                                                                                                                                                                   41x
+                                                                                           gof                        (x)                                                                                                                                                 =      x
+                                                                                                                                                                                                                                                                          41
+                                                                                                                                                                                                                                   2                                      41x
+                                                                                           Similarly, fog                                                                                                                                                                 =      =                 x
+                                                                                                                                                                                                                                   1                                             41
+Thus, gof                                                                                  s that gof = IB
+and fog = IA.
+Example 18                                                                                 of : A → C is
+also one-one.
+Solution Sup
+⇒
+⇒
+⇒                                                                                          x1 = x2, as f is one-one
+Hence, gof is one-one.
+Example 19 Show that if f : A → B and g : B → C are onto, then gof : A → C is
+also onto.
+Solution Given an arbitrary element z ∈ C, there exists a pre-image y of z under g
+such that g (y) = z, since g is onto. Further, for y ∈ B, there exists an element x in A
+2021-22
+
+14                                                                                            MATHEMATICS
+with f(x) = y, since f is onto. Therefore, gof(x) = g(f(x)) = g(y) = z, showing that gof
+is onto.
+Example 20 Consider functions f and g such that composite gof is defined and is one-
+one. Are f and g both necessarily one-one.
+Solution Consider f : {1, 2, 3, 4} → {1, 2, 3, 4, 5, 6} defined as f (x) = x, ∀ x and
+g : {1, 2, 3, 4,                                                                              (5) = g (6) = 5.
+Then, gof (x)                                                                                 not one-one.
+Example 21
+Solution Con                                                                                  , 2, 3} defined
+as f(1) = 1, f(                                                                               = 3. It can be
+seen that gof
+Remark It ca                                                                                  f is one-one.
+Similarly, gof
+Now, we                                                                                       scribed in the
+beginning of t                                                                                ent appearing
+in Class X Ex                                                                                 function f and
+each roll num                                                                                 er scripts are
+examined, ex                                                                                  ark book and
+submits to the                                                                                g roll number
+back to each c                                                                                gets attached
+to roll numbe                                                                                 assigns a roll
+number to th                                                                                  g mark to the
+student scorin                                                                                get gof, first f
+and then g w                                                                                  gof, first the
+reverse proce
+Example 22                                                                                    tion given by
+f (1) = a, f (2)                                                                              c} → {1, 2, 3}
+such that gof
+Solution Con                                                                                  g(c) = 3. It is
+easy to verify that the composite gof = IX is the identity function on X and the composite
+fog = IY is the identity function on Y.
+Remark  The interesting fact is that the result mentioned in the above example is true
+for an arbitrary one-one and onto function f : X → Y. Not only this, even the converse
+is also true , i.e., if f : X → Y is a function such that there exists a function g : Y → X
+such that gof = IX and fog = IY, then f must be one-one and onto.
+The above discussion, Example 22 and Remark lead to the following definition:
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                      15
+Definition 9 A function f : X → Y is defined to be invertible, if there exists a function
+g : Y → X such that  gof = IX and fog = IY. The function g is called the inverse of f  and
+is denoted by f-1.
+Thus, if f is invertible, then f must be one-one and onto and conversely, if f is
+one-one and onto, then f must be invertible. This fact significantly helps for proving a
+                                                                                             function f to          ally when the
+                                                                                             actual inverse
+                                                                                             Example 23             e,
+                                                                                             Y = {y ∈ N :           d the inverse.
+                                                                                             Solution Con           , y = 4x + 3,
+                                                                                             for some x in          : Y → N  by
+                                                                                             (y                −3
+g(y)                                                                                         =                      and
+4
+fog (y) = f (g (                                                                             s that gof = IN
+and fog = IY,
+Example 24                                                                                   n2. Show that
+f is invertible.
+Solution An                                                                                  n ∈ N. This
+implies that n                                                                               =   y . Now,
+gof (n) = g (n                                                                               h shows that
+gof = IN and f
+Example 25 Let f ' : N  → R be a function defined as f '(x) = 4x2 + 12x + 15. Show that
+f : N→ S, where, S is the range of f, is invertible. Find the inverse of f.
+Solution Let y be an arbitrary element of range f. Then y = 4x2 + 12x + 15, for some
+                                                                                                                    (                y   −   6)   −   3)
+x in N, which implies that y = (2x + 3)2 + 6. This gives                                     x                 =                                           , as y ≥ 6.
+2
+2021-22
+
+16                                                                                     MATHEMATICS
+                                                                                                                                                 (   y−   6)   −   3)
+Let us define g : S → N by g (y) =
+2
+Now                                                                                    gof(x) = g(f(x)) = g(4x2 + 12x + 15) = g((2x + 3)2 + 6)
+and
+                                                                                       + 6 = y.
+Hence,                                                                                 ith f -1 = g.
+Example 26                                                                             as f(x) = 2x,
+g (y) = 3y + 4                                                                         og) of.
+Solution We
+∈N.
+Also,                                                                                  ((ho
+∈ N.
+This shows th
+This result is
+Theorem 1 If
+Proof We ha
+and                                                                                    (hog) of (x) = hog (f (x)) = h(g (f (x))), ∀ x in X.
+Hence,                                                                                 ho(gof) = (hog)o f.
+Example 27 Consider f : {1, 2, 3} → {a, b, c} and g : {a, b, c} → {apple, ball, cat}
+defined as f(1) = a, f(2) = b, f(3) = c, g(a) = apple, g(b) = ball and g(c) = cat.
+Show that f, g and gof are invertible. Find out f -1, g-1 and (gof)-1 and show that
+(gof) -1 = f -1o g-1.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                        17
+Solution Note that by definition, f and g are bijective functions. Let
+f                                                                                              -1:                                                                          {a, b, c} → (1, 2, 3} and g-1 : {apple, ball, cat} → {a, b, c} be defined as
+f -1{a} = 1, f -1{b} = 2,  f -1{c} = 3,  g-1{apple} = a,  g-1{ball} = b and  g-1{cat} = c.
+It is easy to verify that f -1 o f                                                             = I{1, 2, 3}, f o f -1 = I{a, b, c}, g-1og = I{a, b, c} and  g o g-1 = ID,
+where, D = {apple, ball, cat}. Now, gof : {1, 2, 3} → {apple, ball, cat} is given by
+gof (1) = appl
+(gof)-                                                                                         (ball) = 2 and
+(g o f)                                                                                        and
+}
+(gof)                                                                                          nvertible.
+Now,    f-1og
+all) and
+at).
+Hence
+The abov
+Theorem 2 L                                                                                    en gof  is also
+invertible wit
+Proof To sho                                                                                   to show that
+(f-1og-1)o(go
+Now,                                                                                           1
+1
+1
+Similarly, it c
+Example 28                                                                                     S defined as
+below have in
+(a)  f = {(1,
+(b)  f = {(1,
+(c)  f = {(1,
+Solution
+(a)  It is easy to see that f is one-one and onto, so that f  is invertible with the inverse
+f -1 of f given by f -1 = {(1, 1), (2, 2), (3, 3)} = f.
+(b)  Since f (2) = f (3) = 1, f is not one-one, so that f  is not invertible.
+(c)  It is easy to see that f   is one-one and onto, so that f  is invertible with
+f -1 = {(3, 1), (2, 3), (1, 2)}.
+2021-22
+
+18                                                                                      MATHEMATICS
+                                                                                        EXERCISE 1.3
+1.                                                                                      Let f : {1, 3, 4} → {1, 2, 5} and g : {1, 2, 5} → {1, 3} be given by
+                                                                                        f = {(1, 2), (3, 5), (4, 1)} and g = {(1, 3), (2, 3), (5, 1)}. Write down gof.
+2.                                                                                      Let f, g and h be functions from R to R. Show that
+3.                                                                                      Find go
+(i) f
+(ii) f
+4.                                                                                      If f(x)                                                                                . What is the
+inverse
+5.                                                                                      State w
+(i) f
+f
+(ii) g
+g
+(iii) h
+h
+6.                                                                                      Show t                                                                                 nd the inverse
+                                                                                        of the f
+                                                                                                                                                                               2y
+                                                                                        (Hint: F                                                                               ., x =           )
+                                                                                                                                                                               (1−              y)
+7.                                                                                      Consider f : R → R given by f (x) = 4x + 3. Show that f is invertible. Find the
+inverse of f.
+8.                                                                                      Consider f : R+ → [4, ∞) given by f (x) = x2 + 4. Show that f is invertible with the
+inverse f-1 of f given by f-1(y)  =   y − 4 , where R+ is the set of all non-negative
+real numbers.
+2021-22
+
+                                                                                                                                                           RELATIONS AND FUNCTIONS                                                               19
+9.                                                                                                                                                         Consider f : R+ → [- 5, ∞) given by f (x) = 9x2 + 6x - 5. Show that f is invertible
+                                                                                                                                         (   y   +   6)   −1
+                                                                                                with f-1(y) =                                             .
+                                                                                                                                                 3        
+10.                                                                                                                                                        Let f : X → Y be an invertible function. Show that f has unique inverse.
+                                                                                                (Hint: s
+                                                                                                fog1(y)
+11.                                                                                             Consid                                                     f(3) = c. Find
+                                                                                                f -1 and
+12.                                                                                             Let f : X                                                  is f, i.e.,
+                                                                                                (f-1)-1          =
+13.                                                                                             If f : R
+1
+(A)                                                                                             3                – x3).
+x
+14.                                                                                             Let f :                   he inverse of
+                                                                                                f is the
+                                                                                                (A)              g(
+                                                                                                (C)              g(
+1.5  Binary
+Right from th                                                                                   tal operations
+namely addition, subtraction, multiplication and division. The main feature of these
+operations is that given any two numbers a and b, we associate another number a + b
+a
+or a - b or ab or
+b, b ≠ 0. It is to be noted that only two numbers can be added or
+multiplied at a time. When we need to add three numbers, we first add two numbers
+and the result is then added to the third number. Thus, addition, multiplication, subtraction
+2021-22
+
+20                                                                                          MATHEMATICS
+and division are examples of binary operation, as ‘binary’ means two. If we want to
+have a general definition which can cover all these four operations, then the set of
+numbers is to be replaced by an arbitrary set X and then general binary operation is
+nothing but association of any pair of elements a, b from X to another element of X.
+This gives rise to a general definition as follows:
+Definition 10                                                                               A. We denote
+∗ (a, b) by a
+Example 29                                                                                  ary operations
+on R, but divi                                                                              ion is a binary
+operation on
+Solution                                                                                    +
+-
+×
+Since ‘+’,
+But ÷: R                                                                                    e not a binary
+operation, as
+However,                                                                                    and hence a
+binary operati
+Example 30                                                                                  ons on N.
+Solution  - :                                                                               , as the image
+of (3, 5) under                                                                             (a, b) → a ÷ b
+is not a binary operation, as the image of (3, 5) under ÷ is 3 ÷ 5 = 3
+5 ∉ N.
+Example 31 Show that ∗ : R × R → R given by (a, b) → a + 4b2 is a binary
+operation.
+Solution Since ∗ carries each pair (a, b) to a unique element a + 4b2 in R, ∗ is a binary
+operation on R.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                      21
+Example 32 Let P be the set of all subsets of a given set X. Show that ∪ : P × P → P
+given by (A, B) → A ∪ B and ∩ : P × P → P given by (A, B) → A ∩ B are binary
+operations on the set P.
+Solution Since union operation ∪ carries each pair (A, B) in P × P to a unique element
+A ∪ B  in P, ∪ is binary operation on P. Similarly, the intersection operation ∩ carries
+each pair (A,                                                                                peration on P.
+Example 33                                                                                   a, b} and the
+∧ : R × R →
+Solution Sin                                                                                 ment namely
+maximum of                                                                                   ilar argument,
+one can say th
+Remark ∨ (4
+When nu                                                                                      operation ∗ on
+the set A thro                                                                               . For example
+consider A = {                                                                               n be expressed
+by the followin                                                                              ∨ (1, 2) = 2.
+Here, we                                                                                     with (i, j) the
+entry of the t                                                                               . This can be
+generalised f                                                                                an}. Then the
+operation tabl                                                                               being ai ∗ aj.
+Conversely, g                                                                                ith each entry
+being an elem                                                                                ∗ : A × A → A
+given by ai ∗                                                                                n table.
+One may note that 3 and 4 can be added in any order and the result is same, i.e.,
+3 + 4 = 4 + 3, but subtraction of 3 and 4 in different order give different results, i.e.,
+3 - 4 ≠ 4 - 3. Similarly, in case of multiplication of 3 and 4, order is immaterial, but
+division of 3 and 4 in different order give different results. Thus, addition and
+multiplication of 3 and 4 are meaningful, but subtraction and division of 3 and 4 are
+meaningless. For subtraction and division we have to write ‘subtract 3 from 4’, ‘subtract
+4 from 3’, ‘divide 3 by 4’ or ‘divide 4 by 3’.
+2021-22
+
+22                                                                                           MATHEMATICS
+This leads to the following definition:
+Definition 11 A binary operation ∗ on the set X is called commutative, if a ∗ b = b ∗ a,
+for every a, b ∈ X.
+Example 34 Show that + : R × R → R and × : R × R → R are commutative binary
+operations, but - : R × R → R and ÷ : R  × R  → R  are not commutative.
+Solution Sin                                                                                 ’ and ‘×’ are
+commutative                                                                                  3 - 4 ≠ 4 - 3.
+Similarly, 3 ÷
+Example 35                                                                                   commutative.
+Solution Sinc                                                                                he operation ∗
+is not commut
+If we wan                                                                                    peration on X,
+we encounter                                                                                 interpreted as
+(a ∗ b) ∗ c or                                                                               For example,
+(8 - 5) - 2 ≠                                                                                and 3 through
+the binary op                                                                                d. But in case
+of addition, 8                                                                               + 5) + 2 or as
+8 + (5 + 2). T                                                                               gh addition is
+meaningful w
+Definition 12                                                                                e if
+Example 36 S                                                                                 y operation on
+R. But subtra                                                                                n R∗.
+Solution Add                                                                                 a + (b + c) and
+(a × b) × c =                                                                                vision are not
+associative, a
+Example 37                                                                                   t associative.
+Solution The
+while                                                                                        8 ∗ (5 ∗ 3) = 8 ∗ (5 + 6) = 8 ∗ 11 = 8 + 22 = 30.
+Remark Associative property of a binary operation is very important in the sense that
+with this property of a binary operation, we can write a1 ∗ a2 ∗ ... ∗ an which is not
+ambiguous. But in absence of this property, the expression a1 ∗ a2 ∗ ... ∗ an is ambiguous
+unless brackets are used. Recall that in the earlier classes brackets were used whenever
+subtraction or division operations or more than one operation occurred.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                      23
+For the binary operation ‘+’ on R, the interesting feature of the number zero is that
+a + 0 = a = 0 + a, i.e., any number remains unaltered by adding zero. But in case of
+multiplication, the number 1 plays this role, as a × 1 = a = 1 × a, ∀  a in R. This leads
+to the following definition:
+Definition 13 Given a binary operation ∗ : A × A → A, an element e ∈ A, if it exists,
+is called iden
+Example 38                                                                                   he identity for
+multiplication
+Solution a +                                                                                 at 0 and 1 are
+identity eleme                                                                               is no element
+e in R with a                                                                                n R∗ such that
+a ÷ e = e ÷ a,                                                                               nt.
+Remark Zero                                                                                  entity for the
+addition oper                                                                                does not have
+any identity.
+One furth                                                                                    R, given any
+a ∈ R, there                                                                                 ) = (- a) + a.
+Similarly, for                                                                               can choose 1
+a
+in R such that                                                                               ing definition:
+Definition 14                                                                                lement e in A,
+an element a                                                                                 if there exists
+an element b                                                                                 se of a and is
+denoted by a-
+Example 39                                                                                   ‘+’ on R and
+1
+a is the inverse of a ≠ 0 for the multiplication operation ‘×’ on R.
+Solution As a + (- a) = a - a = 0 and (- a) + a = 0, - a is the inverse of a for addition.
+                                                                                             1                 1   1
+Similarly, for a ≠ 0, a ×                                                                                              is the inverse of a for multiplication.
+a= 1 = a× a implies that a
+2021-22
+
+24                                                                                     MATHEMATICS
+Example 40 Show that - a is not the inverse of a ∈ N for the addition operation + on
+1
+N and
+ais not the inverse of a ∈ N for multiplication operation × on N, for a ≠ 1.
+Solution Since - a ∉ N,                                                                - a can not be inverse of a for addition operation on N,
+although - a
+Similarly,                                                                             element of N
+has inverse fo
+Examples                                                                               nd associative
+binary operat                                                                          f a in R ∀ a.
+1.                                                                                     Determ                                                     gives a binary
+                                                                                       operati                                                    cation for this.
+(i) O
+(ii) O
+(iii) O
+(iv) O
+(v) O
+2.                                                                                     For eac                                                    commutative
+or asso
+(i) O
+(ii) O
+(iii) O
+(iv) O
+(v) On Z+, define a ∗ b = ab
+a
+(vi) On R - {- 1}, define a ∗ b =
+                                                                                                                                                  b+1
+3.                                                                                     Consider the binary operation                              ∧ on the set {1, 2, 3, 4, 5} defined by
+a ∧  b = min {a, b}. Write the operation table of the operation ∧ .
+2021-22
+
+RELATIONS AND FUNCTIONS                                                               25
+4.  Consider a binary operation ∗ on the set {1, 2, 3, 4, 5} given by the following
+multiplication table (Table 1.2).
+(i) Compute (2 ∗ 3) ∗ 4 and 2 ∗ (3 ∗ 4)
+(ii) Is ∗ commutative?
+(iii) Compute (2 ∗ 3) ∗ (4 ∗ 5).
+(Hint: use the following table)
+5.  Let ∗′                                                                                                defined by
+a ∗′ b =                                                                                                  ion ∗ defined
+in Exer
+6.  Let ∗ b                                                                                               and b. Find
+(i)                                                                                   5
+                                                                                      (iii) Is            N
+                                                                                      (v) W
+7.  Is ∗ def                                                                                              nd b a binary
+operati
+8.  Let ∗ b                                                                                               . of a and b.
+Is ∗ co                                                                                                   or this binary
+operati
+9.  Let ∗ b                                                                           ollows:
+(i) a
+(iii) a
+ab
+(v) a ∗ b =                                                                           (vi)  a ∗ b = ab2
+4
+Find which of the binary operations are commutative and which are associative.
+10.  Find which of the operations given above has identity.
+11.  Let A = N × N and ∗ be the binary operation on A defined by
+(a, b) ∗ (c, d) = (a + c, b + d)
+2021-22
+
+26                                                                                          MATHEMATICS
+Show that ∗ is commutative and associative. Find the identity element for ∗ on
+A, if any.
+12.  State whether the following statements are true or false. Justify.
+(i) For an arbitrary binary operation ∗ on a set N, a ∗ a = a ∀ a ∈ N.
+(ii) If ∗ is a commutative binary operation on N, then a ∗ (b ∗ c) = (c ∗ b) ∗ a
+13.  Consid                                                                                 .  Choose the
+correct
+(A) Is
+(B) Is
+(C) Is
+(D) Is
+Example 41                                                                                  at R1 ∩ R2 is
+also an equiva
+Solution Sinc                                                                                                           ∈ R2 ∀ a ∈ A.
+This implies                                                                                                            xive. Further,
+(a, b) ∈ R1 ∩                                                                                                           b, a) ∈ R2 ⇒
+(b, a) ∈ R1                                                                                                             R1 ∩ R2 and
+(b, c) ∈ R1 ∩                                                                                                           is shows that
+R1 ∩ R2 is tran
+Example 42                                                                                                              itive integers
+defined by (x,                                                                                                          ence relation.
+Solution Cle                                                                                                            ows that R is
+reflexive. Fur                                                                                                          R (x, y). This
+shows that R                                                                                                            ⇒ xv = yu and
+ub = va ⇒ xv                                                                                                            a, b). Thus, R
+                                                                                            u               u   v   u
+is transitive. Thus, R is an equivalence relation.
+Example 43 Let X = {1, 2, 3, 4, 5, 6, 7, 8, 9}. Let R1 be a relation in X given
+by R1 = {(x, y) : x - y is divisible by 3} and R2 be another relation on X given by
+R2 = {(x, y): {x, y} ⊂ {1, 4, 7}} or {x, y} ⊂ {2, 5, 8} or {x, y} ⊂ {3, 6, 9}}. Show that
+R1 = R2.
+2021-22
+
+RELATIONS AND FUNCTIONS                                                                 27
+Solution Note that the characteristic of sets {1, 4, 7}, {2, 5, 8} and {3, 6, 9} is
+that difference between any two elements of these sets is a multiple of 3. Therefore,
+(x, y) ∈ R1 ⇒ x - y is a multiple of 3 ⇒ {x, y} ⊂ {1, 4, 7} or {x, y} ⊂ {2, 5, 8}
+or {x, y} ⊂ {3, 6, 9} ⇒ (x, y) ∈ R2. Hence, R1 ⊂ R2. Similarly, {x, y} ∈ R2 ⇒ {x, y}
+⊂ {1, 4, 7} or {x, y} ⊂ {2, 5, 8} or                                                    {x, y} ⊂ {3, 6, 9} ⇒ x - y is divisible by
+3 ⇒ {x, y} ∈
+Example 44                                                                              n by
+R = {(a, b): f(                                                                         or not.
+Solution For                                                                            R is reflexive.
+Similarly, (a,                                                                          herefore, R is
+symmetric. F                                                                            = f (c) ⇒ f (a)
+= f(c) ⇒ (a,                                                                            n equivalence
+relation.
+Example 45                                                                              the set R are
+associative an
+(a)  a ∗ b =                                                                            ∈ R
+Solution
+(a)  Clearl                                                                             ∈  R. Also
+(a ∗ b)                                                                                 c ∈ R. Hence
+R is bot
+(b)  a ∗ b =                                                                            ther,
+                                                                                                                                           b+c         
+But                                                                                     a ∗ (b ∗ c) =                                a∗                
+                                                                                                                                                 2     
+                                                                                                                                                  b+c
+                                                                                                                                     a     +
+                                                                                                                                                  2         2a+b+c  a+b+       2c
+                                                                                        =                                                               =   ≠                       in general.
+                                                                                                                                           2                4              4
+Hence, ∗ is not associative.
+2021-22
+
+28                                                                                      MATHEMATICS
+Example 46 Find the number of all one-one functions from set A = {1, 2, 3} to itself.
+Solution One-one function from {1, 2, 3} to itself is simply a permutation on three
+symbols 1, 2, 3. Therefore, total number of one-one maps from {1, 2, 3} to itself is
+same as total number of permutations on three symbols 1, 2, 3 which is 3! = 6.
+Example 47 L                                                                            ntaining (1, 2)
+and (2, 3) whi
+Solution The                                                                            reflexive and
+transitive but                                                                          ow, if we add
+the pair (2, 1)                                                                         sitive but not
+symmetric. Si                                                                           sired relation.
+However, we
+                                                                                        1 at a time, as
+by doing so, w                                                                          ain transitivity
+and in the pro                                                                          equired. Thus,
+the total numb
+Example 48 S                                                                            3} containing
+(1, 2) and (2,
+Solution The                                                                            , 1) is {(1, 1),
+(2, 2), (3, 3),                                                                         (2, 3), (3, 2),
+(1, 3) and (3,                                                                          we must add
+(3, 2) also and                                                                         Thus, the only
+equivalence r                                                                           s that the total
+number of eq
+Example 49                                                                              g 1 as identity
+and having 2
+Solution A bi                                                                           to {1, 2}, i.e.,
+a function fro                                                                          dentity for the
+desired binar                                                                           e only choice
+left is for the p                                                                       ual to 1. Thus,
+the number of
+Example 50 Consider the identity function IN : N → N defined as IN (x) = x ∀ x ∈ N.
+Show that although IN is onto but IN + IN : N → N defined as
+(IN + IN) (x) = IN (x) + IN (x) = x + x = 2x is not onto.
+Solution Clearly IN is onto. But IN + IN is not onto, as we can find an element 3
+in the co-domain N such that there does not exist any x in the domain N with
+(IN + IN) (x) = 2x = 3.
+2021-22
+
+                                                                                                                                                                                                                            RELATIONS AND FUNCTIONS                                                      29
+                                                                                                                                                                                                                           π
+                                                                                                                                                                                  Example 51 Consider a function f :   0,   →Rgiven by f(x) = sin x and
+                                                                                                                                                                                                                           
+                                                                                                                                                                                                                           2
+          π
+g :        0,                                                                                                                                                                                                               →R given by g(x) = cos x. Show that f and g are one-one, but f + g is not
+                                                                                         
+          2
+one-one.
+           Solution Sinc
+                                                                                                                                                                                                                            1 ≠ sin x2 and
+           cos x1 ≠ cos x                                                                                                                                                                                                   cos 0 = 1 and
+                                                                                         π
+(f + g)                                                                                                                                                                         =
+                                                                                         2      
+1.         Let f :                                                                                                                                                                                                                                                                                                  R → R such
+           that g o
+2.         Let f :                                                                                                                                                                                                                                                                                                  n + 1, if n is
+           even. S                                                                                                                                                                                                                                                                                                  the set of all
+           whole n
+3.         If f : R
+                                                                                                                                                                                                                                                                                                                    x
+4.         Show t                                                                                                                                                                                                                                                                                             (x)   =                      ,
+                                                                                                                                                                                                                                                                                                                    1+|               x|
+           x ∈ R i
+5.         Show t
+6.         Give ex                                                                                                                                                                                                                                                                                                  h that g o f is
+           injectiv
+           (Hint :
+7.                                                                                               Give examples of two functions f : N → N and g : N → N such that g o f is onto
+           but f is not onto.
+                                                                                                 x−1if                                                                                                                     x                                                                            >1
+           (Hint : Consider f (x) = x + 1 and                                             g(x)   =
+                                                                                                                                                                                 1                                    if   x                                                                            =1
+8.         Given a non empty set X, consider P(X) which is the set of all subsets of X.
+2021-22
+
+30                                                                                 MATHEMATICS
+Define the relation R in P(X) as follows:
+For subsets A, B in P(X), ARB if and only if A ⊂ B. Is R an equivalence relation
+on P(X)? Justify your answer.
+9.                                                                                 Given a non-empty set X, consider the binary operation ∗ : P(X) × P(X) → P(X)
+given by A ∗ B = A ∩ B ∀ A, B in P(X), where P(X) is the power set of X.
+                                                                                   Show th                                                                              only invertible
+                                                                                   element
+10.                                                                                Find th                                                                              to itself.
+11.                                                                                Let S =                                                                              ions F from S
+                                                                                   to T, if i
+                                                                                   (i) F
+12.                                                                                Consid                                                                               R defined as
+                                                                                   a ∗b =                                                                               tative but not
+                                                                                   associat                                                                             ∀ a, b, c ∈ R,
+                                                                                   a ∗ (b o                                                                             n ∗ distributes
+                                                                                   over th                                                                              wer.
+13.                                                                                Given                                                                                e defined as
+                                                                                   A * B                                                                                ty set φ is the
+                                                                                   identity                                                                             nvertible with
+                                                                                   A-1 = A                                                                              A ∗ A = φ).
+14.                                                                                Define
+Show t                                                                             a ≠ 0 of the set
+is inver
+15.                                                                                Let A =                                                                              ctions defined
+                                                                                   by f(x)                                                                              and g equal?
+Justify                                                                                                                                                                 : A → B and
+g : A → B such that f(a) = g(a) ∀ a ∈ A, are called equal functions).
+16.                                                                                Let A = {1, 2, 3}. Then number of relations containing (1, 2) and (1, 3) which are
+reflexive and symmetric but not transitive is
+(A) 1                                                                              (B)                                                                                  2                 (C)   3   (D) 4
+17.                                                                                Let A = {1, 2, 3}. Then number of equivalence relations containing (1, 2) is
+(A) 1                                                                              (B)                                                                                  2                 (C)   3   (D) 4
+2021-22
+
+                                                                                                                                                                 RELATIONS AND FUNCTIONS   31
+18.  Let f : R → R be the Signum Function defined as
+                                                                                                                                                   1,   x   >   0
+                                                                                                                                                   
+f                                                      (x)                                                                        =                0,   x   =   0
+                                                                                                                                                   1,    x   <   0
+                                                                                                                                                   
+and g :                                                                                                                                                          ], where [x] is
+greatest                                                                                                                                                         ide in (0, 1]?
+19.  Numbe
+(A) 10
+In this chapt                                                                                                                     ence relation,
+composition o                                                                                                                     main features
+of this chapte
+®                                                      Empty
+®                                                      Univer
+®                                                      Reflexi
+®                                                      Symme                                                                      (b, a) ∈ R.
+®                                                      Transit                                                                    (b, c) ∈ R
+implies
+®                                                      Equiva                                                                     metric and
+transiti
+®                                                      Equiva                                                                     n R in X is
+the sub
+®                                                      A func
+f (x1) =
+®                                                      A func                                                                     x ∈ X such
+that f (x
+®                                                      A func                                                                     th one-one
+and onto.
+®                                                      The composition of functions f : A → B and g : B → C is the function
+gof : A → C given by gof(x) = g(f(x))∀  x ∈ A.
+®                                                      A function f : X → Y is invertible if ∃ g : Y → X such that gof = IX and
+fog = IY.
+®                                                      A function f : X → Y is invertible if and only if f is one-one and onto.
+2021-22
+
+32                                                                                    MATHEMATICS
+® Given a finite set X, a function f : X → X is one-one (respectively onto) if and
+only if f is onto (respectively one-one). This is the characteristic property of a
+finite set. This is not true for infinite set
+® A binary operation ∗ on a set A is a function ∗ from A × A to A.
+® An element e ∈ X is the identity element for binary operation ∗ : X × X → X,
+if a ∗ e
+® An ele                                                                              → X,  if
+there e                                                                               tity for the
+binary                                                                                ted by a-1.
+® An ope                                                                              X.
+® An ope                                                                              , b, c in X.
+The co                                                                                arting from
+R. Descart                                                                            manuscript
+“Geometri                                                                             variable x
+while stud                                                                            pse. James
+Gregory (1                                                                            uadratura”
+(1667) con                                                                            antities by
+successive                                                                            Later G. W.
+Leibnitz (1                                                                           sa, seu  de
+functionibu                                                                           ity varying
+from point                                                                            e curve, the
+slope of th                                                                           . However,
+in his man                                                                            n’ to mean
+quantities t                                                                          e ‘function
+of x’. John                                                                           e in 1718 to
+indicate a f                                                                          , φ, ψ ... to
+represent f                                                                           in the first
+part of his                                                                           s Lagrange
+(1736-181                                                                             ytiques” in
+1793, wher                                                                            f (x), F(x),
+φ(x) etc. for different                                                               function of x. Subsequently, Lejeunne Dirichlet
+(1805-1859) gave the definition of function which was being used till the set
+theoretic definition of function presently used, was given after set theory was
+developed by Georg Cantor (1845-1918). The set theoretic definition of function
+known to us presently is simply an abstraction of the definition given by Dirichlet
+in a rigorous manner.
+—v—
+2021-22
